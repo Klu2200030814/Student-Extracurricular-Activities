@@ -1,0 +1,85 @@
+/* Student.css */
+.student {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 15px 30px; /* More padding for a spacious look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 10px; /* Spacing between icon and text */
+    font-size: 28px; /* Slightly larger icon size */
+}
+
+/* Menu Button Styles */
+.menu-container {
+    position: relative; /* Position for dropdown */
+}
+
+.menu-button {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* White color */
+    font-size: 28px; /* Icon size */
+    cursor: pointer; /* Pointer on hover */
+}
+
+/* Dropdown Menu Styles */
+.menu-dropdown {
+    position: absolute; /* Position dropdown relative to the menu container */
+    right: 0; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for dropdown */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    z-index: 1; /* Ensure dropdown appears above other content */
+}
+
+.menu-dropdown ul {
+    list-style: none; /* Remove bullet points */
+    padding: 10px; /* Padding around menu */
+    margin: 0; /* Remove margin */
+}
+
+.menu-dropdown li {
+    color: white; /* White text for dropdown items */
+    padding: 8px 15px; /* Spacing around items */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.menu-dropdown li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+}
+
+/* Content Styles */
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white; /* Make the heading white for contrast */
+    margin: 20px 0; /* Add margin for spacing */
+    font-size: 2.5rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for the text */
+}

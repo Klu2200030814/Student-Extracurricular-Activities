@@ -1,0 +1,66 @@
+/* User.css */
+.user {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+}
+
+/* Content Styles */
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white; /* Make the heading white for contrast */
+    margin: 20px 0; /* Add margin for spacing */
+    font-size: 2.5rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for the text */
+}
+
+/* Form Styles */
+.user-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Fixed width for the form */
+    margin-top: 20px; /* Spacing above the form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    color: white; /* Label color */
+    margin-bottom: 5px; /* Space between label and input */
+    font-size: 1.2rem; /* Increased font size for labels */
+}
+
+input {
+    padding: 12px; /* Increased padding inside input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #ccc; /* Border style for input fields */
+    font-size: 1.2rem; /* Increased font size for input fields */
+}
+
+/* Sign In Button Styles */
+.signin-button {
+    background-color: black; /* Change button color to black */
+    color: white; /* Change button text color to white */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem; /* Increased font size for button */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.signin-button:hover {
+    background-color: #333; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}

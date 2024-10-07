@@ -1,0 +1,37 @@
+/* Navbar.css */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 15px 30px; /* More padding for a spacious look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 10px; /* Spacing between icon and text */
+    font-size: 28px; /* Slightly larger icon size */
+}
+/* Content Styles */
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white; /* Make the heading white for contrast */
+    margin: 20px 0; /* Add margin for spacing */
+    font-size: 2.5rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for the text */
+}
+

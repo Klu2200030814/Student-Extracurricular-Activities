@@ -1,0 +1,79 @@
+/* Home Component Styles */
+.home {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Gradient background */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    padding: 15px 30px; /* More padding for a spacious look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    margin-right: 10px; /* Spacing between icon and text */
+    font-size: 28px; /* Slightly larger icon size */
+}
+
+/* Button Container */
+.button-container {
+    display: flex; /* Use flexbox to arrange buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Button Styles */
+.signin-button,
+.user-login-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded button corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.signin-button:hover,
+.user-login-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Content Styles */
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white; /* Make the heading white for contrast */
+    margin: 20px 0; /* Add margin for spacing */
+    font-size: 2.5rem; /* Increase font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect for the text */
+}
+
+.center-image {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px; /* Space between text and image */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for image */
+}
